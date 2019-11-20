@@ -125,8 +125,6 @@ docker ps
 | ------------------------------- | --------------------------------------------- |
 | docker ps | List all running containers |
 | docker ps -a | List all containers stopped, running |
-| docker ps -a | List all containers stopped, running |
-| docker ps -a | List all containers stopped, running |
 | docker stop container-id | Stop the container which is running |
 | docker start container-id | Start the container which is stopped |
 | docker restart container-id | Restart the container which is running |

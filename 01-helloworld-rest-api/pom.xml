@@ -13,7 +13,7 @@
 	<groupId>com.stacksimplify</groupId>
 	<artifactId>01-helloworld-rest-api</artifactId>
 	<name>springboot-helloworld-rest-api</name>
-	<version>1.0.0-RELEASE</version>
+	<version>2.0.0-RELEASE</version>
 	<description>Hello World REST Api</description>
 	<packaging>jar</packaging>
 
