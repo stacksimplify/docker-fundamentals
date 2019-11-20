@@ -2,7 +2,7 @@
 
 ## Step-1: Pre-requsites - Create Simple SpringBoot HelloWorld REST API
 - Create a simple Helloworld rest api
-- In our case, we will downloas this from our course artifacts. 
+- In our case, we will downloas this from our course artifacts during project setup. 
 - Run locally and test
     - Access Helloworld REST API
     - http://localhost:8080/hello
@@ -33,12 +33,13 @@ ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urando
     - In the below pom.xml, please ensure we replace "stacksimplify" in repository tag with your docker hub id. 
     - <repository>stacksimplify/${project.name}</repository>
 - https://github.com/spotify/dockerfile-maven
+- https://mvnrepository.com/artifact/com.spotify/dockerfile-maven-plugin
 ```xml
 			<!-- Docker Spotify Plugin -->
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
-				<version>1.4.10</version>
+				<version>1.4.13</version>
 				<executions>
 					<execution>
 						<id>default</id>
