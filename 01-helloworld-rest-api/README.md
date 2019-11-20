@@ -114,7 +114,7 @@ docker push stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE
 - Run docker image in detached mode (no console output of spring boot application)
 - So far we are running in foreground mode where we get the spring boot application console output. 
 ```
-docker run -p 80:8080 stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE
+docker run -d -p 80:8080 stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE
 docker ps
 ```
 
