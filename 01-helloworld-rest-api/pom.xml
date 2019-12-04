@@ -12,7 +12,7 @@
 	
 	<groupId>com.stacksimplify</groupId>
 	<artifactId>01-helloworld-rest-api</artifactId>
-	<name>springboot-helloworld-rest-api</name>
+	<name>dockerintro-springboot-helloworld-rest-api</name>
 	<version>1.0.0-RELEASE</version>
 	<description>Hello World REST Api</description>
 	<packaging>jar</packaging>
@@ -65,7 +65,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>kalyandev/${project.name}</repository>
+					<repository>stacksimplify/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
