@@ -3,14 +3,14 @@
 ## Flow-1: Pull existing Docker Image from Docker Hub and Run it as a Container
 
 ## Flow-2: Create a new Docker Image, Run as Container and Push to Docker Hub
-- Run the base Nginx container
+### Run the base Nginx container
 - Access the URL http://localhost
 ```
 docker run --name mynginxdefault -p 80:80 -d nginx
 docker ps
 ```
 
-- Create Dockerfile and copy our customized index.html
+### Create Dockerfile and copy our customized index.html
 ```
 FROM nginx
 COPY index.html /usr/share/nginx/html
