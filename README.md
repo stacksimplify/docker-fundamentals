@@ -1,6 +1,6 @@
 # AWS Fargate & ECS - Masterclass
 
-## Docker Images used in this course
+## Docker Images used in this course 
 
 | Application Name                 | Docker Image Name                          |
 | ------------------------------- | --------------------------------------------- |
