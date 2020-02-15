@@ -1,5 +1,11 @@
 # Flow-2: Create a new Docker Image, Run as Container and Push to Docker Hub
 
+## Pre-requisite Step
+- Create your Docker hub account. 
+- https://hub.docker.com/
+- **Important Note**: In the below listed commands wherever you see **stacksimplify** you can replace with your docker hub account id. 
+
+
 ## Step-1: Run the base Nginx container
 - Access the URL http://localhost
 ```
@@ -16,6 +22,7 @@ COPY index.html /usr/share/nginx/html
 
 ## Step-3: Build Docker Image & run it
 ```
+docker build -t <your-docker-hub-id>/mynginx_image1:v1 .
 docker build -t stacksimplify/mynginx_image1:v1 .
 docker run --name mynginx1 -p 80:80 -d stacksimplify/mynginx_image1:v1
 ```
@@ -27,5 +34,5 @@ docker tag stacksimplify/mynginx_image1:v1 stacksimplify/mynginx_image1:v1-relea
 docker push stacksimplify/mynginx_image1:v1-release
 ```
 ## Step-5: Verify the same on docker hub
-- Login to docker hub 
+- Login to docker hub and verify the image we have pushed
 - Url: https://hub.docker.com/repositories
