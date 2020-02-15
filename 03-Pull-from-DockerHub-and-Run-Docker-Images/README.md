@@ -38,11 +38,13 @@ docker start  <container-name>
 
 ## Step-7: Remove Container 
 ```
+docker stop <container-name> 
 docker rm <container-name>
 ```
 
 ## Step-8: Remove Image
 ```
-docker image  <image-id>
+docker images
+docker rmi  <image-id>
 ```
 
