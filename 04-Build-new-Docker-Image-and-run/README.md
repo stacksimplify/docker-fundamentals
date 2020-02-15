@@ -8,6 +8,7 @@ docker ps
 ```
 
 ## Step-2: Create Dockerfile and copy our customized index.html
+- **Dockerfile**
 ```
 FROM nginx
 COPY index.html /usr/share/nginx/html
