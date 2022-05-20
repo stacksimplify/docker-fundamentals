@@ -22,6 +22,7 @@
 		- /Users/<userid>/.docker/config.json
 		- ~/.docker/config.json
 	- Remove the line **“credSstore” : “osxkeychain”,** in config.json
+	- At last you need to restart the docker
 
 
  
