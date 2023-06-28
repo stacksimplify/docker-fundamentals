@@ -42,9 +42,9 @@ kalyanreddy@Kalyans-Mac-mini-2 ~ %
 
 ## Step-4: List Running Containers
 ```
-docker ps
-docker ps -a
-docker ps -a -q
+docker ps        list only running containers
+docker ps -a     list all containers 
+docker ps -a -q  only list containers id
 ```
 
 ## Step-5: Connect to Container Terminal
